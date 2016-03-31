@@ -5,19 +5,14 @@ a = float(str1)
 b = float(str2)
 
 operator = input('Введите операцию')
-if operator == '+': 
-    s = a + b       
-    print(s)
-operator = input('Введите операцию')
+if operator == '+':  
+    s = a + b        
 if operator == '-':
     s = a - b
-    print(s)
-operator = input('Введите операцию')
 if operator == '*':
     s = a* b 
-    print(s)
-operator = input('Введите операцию')
 if operator == '/':
     s = a / b
-    print(s)
-print('Bye')
+print(s)
+
+  
