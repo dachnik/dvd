@@ -9,13 +9,22 @@ while True:
 
     if operator == '+':  
         s = a + b        
+    elif operator == '-':
+        s = a - b
     if operator == '-':
         s = a - b
+    elif operator == '+':
+        s = a + b
     if operator == '*':
         s = a* b 
+    elif operator == '/':   
+        s = a / b
     if operator == '/':
         s = a / b
+    elif operator == '*':
+       s = a * b
     print(s)
+    operator = input('Введи exit, чтобы выйти, если хочешь продолжить нажми Enter:  ')
     if operator == 'exit':
         break
-print('Завершение')
+print('bay')
